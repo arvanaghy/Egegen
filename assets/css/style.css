@@ -1,0 +1,209 @@
+a {
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 10px;
+    z-index: 9;
+}
+header .logo{
+    position: absolute;
+}
+header .menu{
+    position: absolute;
+    right: 30px;
+    color: white;
+    top: 10px;
+}
+header .menu ul{
+    list-style: none;
+}
+header .menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+.top{
+    position: relative;
+}
+.top .right , .top .left{
+    padding: 0;
+}
+.top .col-lg-3{
+    top: 70%;
+}
+.top .left{
+    background:linear-gradient(0deg, rgba(0, 47, 89, 0.8), rgba(0, 47, 89, 0.8)), url("/assets/images/shutterstock_638232967.jpg");
+    background-size:cover;
+}
+.top h1{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    border-left: 4px solid white;
+    padding-left: 15px;
+
+}
+.top .description{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+.top form{
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+.top form .btn-outline-secondary {
+    border-color: white;
+    background-color: white;
+}
+.top form .form-control {
+    border-radius: 1.5rem;
+}
+.top form .btn {
+    border-radius: 1.5rem;
+}
+#about{
+    background-color: #F3F3F0;
+}
+#about .title{
+    border-left: 5px solid darkblue;
+    padding-left: 10px;
+    font-weight: bold;
+    color: darkblue;
+}
+#about .right-image{
+    position: absolute;
+    right: 20px;
+    top: -60px;
+    width: 40%;
+}
+#about .left-image{
+    position: absolute;
+    left: -40px;
+    top: 40px;
+    width: 70%;
+}
+#services .last-button{
+    background-color: #002F59;
+    color: white;
+}
+#services .last-button .col:first-child{
+    border-right: 1px solid white;
+}
+#services .card{
+    border-radius: 30px;
+}
+#services .card .card-body{
+    min-height: 110px;
+}
+#slogan{
+    background-color: #F3F3F0;
+    padding: 12% 0;
+    overflow-x: clip ;
+}
+#slogan .introduce-product{
+    position: absolute;
+    left: -10px;
+    width: 40%;
+    top: -360px;
+}
+#slogan .dog-picture{
+    position: absolute;
+    right: -250px;
+    width: 50%;
+    top: -260px;
+}
+
+#shop{
+    padding: 1% 0;
+    background: url("/assets/images/shutterstock_522485095.png") no-repeat top;
+}
+#shop .product-image{
+    background: url("/assets/images/Rectangle 15.png") no-repeat bottom;
+}
+#shop .product-add{
+    margin-top: -60px;
+}
+#features {
+    margin-top: -45px;
+}
+#features .nav-tabs{
+    border-bottom: unset ;
+}
+#features .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+#Blog {
+    padding: 10% 0;
+    background: url("/assets/images/Rectangle 29.png") no-repeat left;
+}
+.blog-cards .card-body{
+    padding: 0.25rem 0.25rem;
+}
+.blog-card-info{
+    font-size: 0.65rem;
+    font-weight: 100;
+}
+.blog-card-info ul{
+    alignment-baseline: middle;
+}
+.blog-card-info li{
+    alignment-baseline: middle;
+    color: #ADADAD;
+}
+.blog-card-title h5{
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #002F59;
+}
+.blog-cards .card .col-10{
+    padding-right: 1px !important;
+}
+.blog-cards .card .col-2{
+    padding-left: 1px !important;
+}
+.blog-description h3{
+    color: #002F59;
+    font-weight: 700;
+}
+
+/* footer */
+.footage{
+    background-color: #002F59;
+}
+.footer-address {
+    list-style: none;
+    padding-left: 0.2rem;
+}
+.footer-useful-links{
+    list-style: none;
+}
+.footer-useful-links li{
+    list-style: none;
+    padding-top: 8%;
+    padding-button: 8%;
+}
+.footer-useful-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.footer-top{
+    padding-top: 4%;
+    padding-left: 7%;
+}
+.sub-order-footer li{
+    padding-top: 2%;
+    font-weight: 100;
+    font-style: italic;
+    list-style: circle;
+}
+.footage form .form-check{
+    font-size: 0.8rem;
+}
+
